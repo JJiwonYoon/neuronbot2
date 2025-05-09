@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/oskar/robot_ws/install/yolo_msgs/include/**",
+        "/home/oskar/robot_ws/install/turtlebot3_gazebo/include/**",
+        "/home/oskar/robot_ws/install/turtlebot3_fake_node/include/**",
+        "/home/oskar/nav2_ws/install/teb_local_planner/include/**",
+        "/home/oskar/nav2_ws/install/teb_msgs/include/**",
+        "/home/oskar/nav2_ws/install/serial/include/**",
+        "/home/oskar/nav2_ws/install/ros2_livox_simulation/include/**",
+        "/home/oskar/nav2_ws/install/pointcloud_to_laserscan/include/**",
+        "/home/oskar/nav2_ws/install/openslam_gmapping/include/**",
+        "/home/oskar/nav2_ws/install/object_msgs/include/**",
+        "/home/oskar/nav2_ws/install/icp_registration/include/**",
+        "/home/oskar/nav2_ws/install/fast_lio/include/**",
+        "/home/oskar/nav2_ws/install/livox_ros_driver2/include/**",
+        "/home/oskar/nav2_ws/install/linefit_ground_segmentation/include/**",
+        "/home/oskar/nav2_ws/install/imu_complementary_filter/include/**",
+        "/home/oskar/nav2_ws/install/hector_gazebo_plugins/include/**",
+        "/home/oskar/nav2_ws/install/fake_vel_transform/include/**",
+        "/home/oskar/nav2_ws/install/costmap_converter/include/**",
+        "/home/oskar/nav2_ws/install/costmap_converter_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/oskar/nav2_ws/src/Livox-SDK2/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_localization/FAST_LIO/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_localization/icp_registration/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_localization/point_lio/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_navigation/costmap_converter/costmap_converter/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_navigation/fake_vel_transform/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_navigation/teb_local_planner/teb_local_planner/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_perception/imu_complementary_filter/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_perception/pointcloud_to_laserscan/include/**",
+        "/home/oskar/nav2_ws/src/PB_RMSimulation/src/rm_simulation/livox_laser_simulation_RO2/include/**",
+        "/home/oskar/nav2_ws/src/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/oskar/nav2_ws/src/my_gazebo_plugin_pkg/include/**",
+        "/home/oskar/nav2_ws/src/neuronbot2/neuronbot2_bringup/include/**",
+        "/home/oskar/nav2_ws/src/realsense_gazebo_plugin/include/**",
+        "/home/oskar/nav2_ws/src/serial/include/**",
+        "/home/oskar/nav2_ws/src/slam_gmapping/openslam_gmapping/include/**",
+        "/home/oskar/nav2_ws/src/slam_gmapping/slam_gmapping/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
