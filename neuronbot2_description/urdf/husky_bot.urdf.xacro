@@ -173,6 +173,21 @@
       </sensor>
     </gazebo>
 
+  <!-- Planar Move 플러그인 -->
+    <gazebo>
+      <plugin filename="libgazebo_ros_planar_move.so" name="object_controller">
+        <ros>
+          <remapping>odom:=odom</remapping>
+        </ros>
+        <command_topic>cmd_vel</command_topic>
+        <odometry_frame>odom</odometry_frame>
+        <odometry_rate>20.0</odometry_rate>
+        <robot_base_frame>base_footprint</robot_base_frame>
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>true</publish_odom_tf>
+      </plugin>
+    </gazebo>
+
     <!-- GPS Link-->
     <!-- Can be modified with environment variables in /etc/ros/setup.bash -->
     <link name="gps_link"/>
