@@ -9,7 +9,7 @@
   <xacro:include filename="$(find neuronbot2_description)/urdf/decorations.urdf.xacro" />
   <xacro:include filename="$(find neuronbot2_description)/urdf/wheel.urdf.xacro" />
 
-  <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/intel_realsense.urdf.xacro"/>
+  <!-- <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/intel_realsense.urdf.xacro"/> -->
   <!-- <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/sick_lms1xx_mount.urdf.xacro"/> -->
   <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/sensor_arch.urdf.xacro"/>
 
