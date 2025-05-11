@@ -12,6 +12,7 @@
   <!-- <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/intel_realsense.urdf.xacro"/> -->
   <!-- <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/sick_lms1xx_mount.urdf.xacro"/> -->
   <xacro:include filename="$(find neuronbot2_description)/urdf/accessories/sensor_arch.urdf.xacro"/>
+  <xacro:include filename="$(find ros2_livox_simulation)/urdf/mid360.xacro" /> <!-- 여기에 추가 -->
 
   <xacro:property name="M_PI" value="3.14159"/>
   <xacro:property name="husky_front_bumper_extend" value="$(optenv HUSKY_FRONT_BUMPER_EXTEND 0)" />
@@ -210,6 +211,11 @@
     <xacro:husky_wheel wheel_prefix="rear_right">
       <origin xyz="${-wheelbase/2} ${-track/2} ${wheel_vertical_offset}" rpy="0 0 0" />
     </xacro:husky_wheel>
+
+    <!-- Livox MID-360 센서 추가 (로봇 중심 위 z=0.3m에 장착) -->
+    <xacro:mid360 name="livox" parent="base_link" topic="mid360">
+      <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    </xacro:mid360>
 
     <xacro:husky_decorate />
   </xacro:macro>
